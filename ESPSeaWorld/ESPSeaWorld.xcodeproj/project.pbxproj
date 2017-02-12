@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444281A21E4CC69700814848 /* ESPItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 444281A11E4CC69700814848 /* ESPItemModel.m */; };
+		444281A51E4CD2F700814848 /* ESPItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 444281A41E4CD2F700814848 /* ESPItemViewCell.m */; };
+		444281A81E4D9A8B00814848 /* ESPAnimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 444281A71E4D9A8B00814848 /* ESPAnimals.m */; };
+		444281AB1E4D9B3400814848 /* ESPWhale.m in Sources */ = {isa = PBXBuildFile; fileRef = 444281AA1E4D9B3400814848 /* ESPWhale.m */; };
+		444281AE1E4D9B9500814848 /* ESPPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 444281AD1E4D9B9500814848 /* ESPPenguin.m */; };
 		44A5E4701E4AE79000192AC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5E46F1E4AE79000192AC4 /* main.m */; };
 		44A5E4731E4AE79000192AC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5E4721E4AE79000192AC4 /* AppDelegate.m */; };
 		44A5E4761E4AE79000192AC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5E4751E4AE79000192AC4 /* ViewController.m */; };
@@ -16,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		444281A01E4CC69700814848 /* ESPItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPItemModel.h; sourceTree = "<group>"; };
+		444281A11E4CC69700814848 /* ESPItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPItemModel.m; sourceTree = "<group>"; };
+		444281A31E4CD2F700814848 /* ESPItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPItemViewCell.h; sourceTree = "<group>"; };
+		444281A41E4CD2F700814848 /* ESPItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPItemViewCell.m; sourceTree = "<group>"; };
+		444281A61E4D9A8B00814848 /* ESPAnimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPAnimals.h; sourceTree = "<group>"; };
+		444281A71E4D9A8B00814848 /* ESPAnimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPAnimals.m; sourceTree = "<group>"; };
+		444281A91E4D9B3400814848 /* ESPWhale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPWhale.h; sourceTree = "<group>"; };
+		444281AA1E4D9B3400814848 /* ESPWhale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPWhale.m; sourceTree = "<group>"; };
+		444281AC1E4D9B9500814848 /* ESPPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPPenguin.h; sourceTree = "<group>"; };
+		444281AD1E4D9B9500814848 /* ESPPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPPenguin.m; sourceTree = "<group>"; };
 		44A5E46B1E4AE79000192AC4 /* ESPSeaWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPSeaWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A5E46F1E4AE79000192AC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44A5E4711E4AE79000192AC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +54,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		441C9C181E507574003BBB92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				444281A01E4CC69700814848 /* ESPItemModel.h */,
+				444281A11E4CC69700814848 /* ESPItemModel.m */,
+				444281A61E4D9A8B00814848 /* ESPAnimals.h */,
+				444281A71E4D9A8B00814848 /* ESPAnimals.m */,
+				444281A91E4D9B3400814848 /* ESPWhale.h */,
+				444281AA1E4D9B3400814848 /* ESPWhale.m */,
+				444281AC1E4D9B9500814848 /* ESPPenguin.h */,
+				444281AD1E4D9B9500814848 /* ESPPenguin.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		44A5E4621E4AE78F00192AC4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +88,13 @@
 		44A5E46D1E4AE79000192AC4 /* ESPSeaWorld */ = {
 			isa = PBXGroup;
 			children = (
+				441C9C181E507574003BBB92 /* Model */,
 				44A5E4711E4AE79000192AC4 /* AppDelegate.h */,
 				44A5E4721E4AE79000192AC4 /* AppDelegate.m */,
 				44A5E4741E4AE79000192AC4 /* ViewController.h */,
 				44A5E4751E4AE79000192AC4 /* ViewController.m */,
+				444281A31E4CD2F700814848 /* ESPItemViewCell.h */,
+				444281A41E4CD2F700814848 /* ESPItemViewCell.m */,
 				44A5E4771E4AE79000192AC4 /* Main.storyboard */,
 				44A5E47A1E4AE79000192AC4 /* Assets.xcassets */,
 				44A5E47C1E4AE79000192AC4 /* LaunchScreen.storyboard */,
@@ -150,7 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444281A81E4D9A8B00814848 /* ESPAnimals.m in Sources */,
 				44A5E4761E4AE79000192AC4 /* ViewController.m in Sources */,
+				444281A21E4CC69700814848 /* ESPItemModel.m in Sources */,
+				444281AB1E4D9B3400814848 /* ESPWhale.m in Sources */,
+				444281A51E4CD2F700814848 /* ESPItemViewCell.m in Sources */,
+				444281AE1E4D9B9500814848 /* ESPPenguin.m in Sources */,
 				44A5E4731E4AE79000192AC4 /* AppDelegate.m in Sources */,
 				44A5E4701E4AE79000192AC4 /* main.m in Sources */,
 			);
@@ -271,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ESPSeaWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.ESPSeaWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ESPSeaWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.ESPSeaWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +347,7 @@
 				44A5E4841E4AE79000192AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
