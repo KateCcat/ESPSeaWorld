@@ -10,4 +10,9 @@
 
 @implementation ESPPenguin
 
+-(NSInteger)reproductionInterval
+{
+    return 2;
+}
+
 @end

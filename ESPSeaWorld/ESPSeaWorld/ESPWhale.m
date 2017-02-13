@@ -10,4 +10,9 @@
 
 @implementation ESPWhale
 
+-(NSInteger)reproductionInterval
+{
+    return 7;
+}
+
 @end

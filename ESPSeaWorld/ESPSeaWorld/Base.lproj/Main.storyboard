@@ -69,12 +69,6 @@ Cg
                                     <action selector="moveAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pab-sX-tLC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e62-rk-FIV">
-                                <rect key="frame" x="16" y="642" width="35.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1x-Pd-K7M">
                                 <rect key="frame" x="285" y="627" width="90" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,16 +93,13 @@ Cg
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AT9-qa-CXg" secondAttribute="bottom" constant="40" id="Rog-6T-ENh"/>
                             <constraint firstAttribute="trailing" secondItem="AT9-qa-CXg" secondAttribute="trailing" id="Rsb-hE-8rh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u1x-Pd-K7M" secondAttribute="bottom" id="Sge-Hs-KQ8"/>
-                            <constraint firstItem="e62-rk-FIV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ukp-Dy-dx8"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ooe-CD-v2x" secondAttribute="bottom" constant="40" id="eYb-wU-M3U"/>
                             <constraint firstAttribute="trailing" secondItem="Ooe-CD-v2x" secondAttribute="trailing" id="gYn-HD-NuH"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="e62-rk-FIV" secondAttribute="bottom" constant="8" id="hYw-YN-6oo"/>
                             <constraint firstItem="Ooe-CD-v2x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hrj-mG-ohX"/>
                             <constraint firstItem="Ooe-CD-v2x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pWl-Cr-hgF"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="debugLabel" destination="e62-rk-FIV" id="0Gg-a7-dwn"/>
                         <outlet property="fieldCollectionView" destination="AT9-qa-CXg" id="Z4Y-Nw-nyD"/>
                     </connections>
                 </viewController>

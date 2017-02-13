@@ -8,15 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "ESPAnimals.h"
-typedef enum {
-    stateEmpty,
-    stateWhale,
-    statePenguin
-} StateItem;
 
 @interface ESPItemModel : NSObject
 @property (nonatomic) NSInteger xCoord;
 @property (nonatomic) NSInteger yCoord;
-@property (nonatomic) StateItem stateItem;
+@property (nonatomic) AnimalType stateItem;
 @property (strong, nonatomic)ESPAnimals* animal;
 @end
